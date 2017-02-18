@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Estimote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="noData">Brak danych</string>
+
+    <string name="host">http://192.168.1.5/android</string>
+    <string name="globalHost">http://pumprojekt.esy.es</string>
+    <string name="getCategories">/services/getCategories.php</string>
+    <string name="getSensors">/services/getSensors.php</string>
+    <string name="getNotify">/services/getNotify.php</string>
+    <string name="idCatParamName">c[]</string>
+    <string name="idSensorParamName">s[]</string>
+
+   <string name="noConnectionTitle">OFFLINE</string>
+   <string name="noConnection">Brak połączenia z internetem</string>
+   <string name="settings">Ustawienia</string>
+    <string name="cancel">Anuluj</string>
+
+
+    <string name="foundSensors">Znalezione czujniki:  </string>
+    <string name="deviceHasNotBtLowEnergy">Urządzenie nie posiada Bluetooth Low Energy </string>
+<string name="btNotEnabled">Bluetooth nie aktywne </string>
+    <string name="lookingFor">Szukanie...</string>
+    <string name="errorToConnectSensors">Błąd podczas próby połączenia z czujnikami</string>
+
+
+    <string name="sensor"> Czujnik </string>
+    <string name="sensors"> Czujniki </string>
+    <string name="distanceBcast"> Odl. rozgł. </string>
+    <string name="currentDistance">  Bieżąca odległość:  </string>
+    <string name="describe">  Opis:  </string>
+    <string name="categoryLabel">Kategoria</string>
+    <!--  _________BUTTON___LABEL_NAMES__________ -->
+    <string name="sensorsInRangeLabelMain"> Czujniki w zasięgu</string>
+    <string name="followingCategoriesLabelMain"> Śledź kategorie </string>
+    <string name="saveFollowingCatLebel"> Zapisz </string>
+
+
+    <string name="scanPeriodMillis">2000</string>
+    <string name="waitTimeMilis">2000</string>
+    <string name="defaultIsFollowingForNewAddedCat">0</string>
+</resources>

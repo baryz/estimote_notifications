@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:background="#ffd8ff5d">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:tag="sensorTitle"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:id="@+id/titleSensorTextView"
+                android:text="@string/sensor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:tag="distanceBcast"
+                android:layout_width="192dp"
+                android:layout_height="46dp"
+                android:id="@+id/distanceBcastTextView"
+                android:text="@string/distanceBcast"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:tag="mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/currentDistanceTextView"
+            android:text="@string/currentDistance"/>
+
+        <LinearLayout android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/iconItemImageView"
+                android:src="@drawable/icon_item" />
+
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/describe"
+                android:id="@+id/describeSensorTextView"
+                android:layout_marginLeft="20dp"
+                />
+
+            <!-- Debug
+            <LinearLayout android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="rssi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:tag="major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/major" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:tag="mpower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:tag="minor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
